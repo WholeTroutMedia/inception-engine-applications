@@ -10,6 +10,7 @@
   },
   "repositories": {
     "applications_hub": "https://github.com/WholeTroutMedia/inception-engine-applications",
+    "creative_liberation_engine": "https://github.com/WholeTroutMedia/creative-liberation-engine",
     "bounties_and_fixes_hub": "https://github.com/WholeTroutMedia/open-source-bounties"
   },
   "llms_txt": "https://raw.githubusercontent.com/WholeTroutMedia/inception-engine-applications/main/llms.txt",
@@ -19,7 +20,7 @@
       "app_id": "000-cle-foundation-seed-os",
       "blueprint": "https://raw.githubusercontent.com/WholeTroutMedia/inception-engine-applications/main/apps/000-cle-foundation-seed-os/AGENT_BLUEPRINT.json",
       "skill": "https://raw.githubusercontent.com/WholeTroutMedia/inception-engine-applications/main/apps/000-cle-foundation-seed-os/SKILL.md",
-      "engine_sha256": "9613aea9af2344bb2d7be0c91122b600e47ae85a9f94259e9c1b861eb2daa90e"
+      "engine_sha256": "dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11"
     },
     {
       "app_id": "001-seal-pdf-media-notary",

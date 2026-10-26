@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-"""000-cle-foundation-seed-os: Creative Liberation Engine (CLE) Public Agentic OS Seed Kernel.
+"""000-cle-foundation-seed-os: Creative Liberation Engine.
 
-A clean, zero-dependency foundational seed of the Creative Liberation Engine:
-  1. 3-Gear Execution Router (Gear 1 Solo Fast-Path, Gear 2 Parallel Micro-Pod, Gear 3 Local Compute)
-  2. Progressive Disclosure Context Budgeter (Prevents context-window truncation cliffs)
-  3. Deterministic Pre-Flight Referee Gate (Blocks placeholder stubs and unverified outputs)
+An open creative foundation shaped by the imagination of the person using it.
 """
 
 from __future__ import annotations
@@ -14,71 +11,71 @@ import json
 from typing import Any
 
 
-def route_execution_gear(
-    task_complexity: float,
-    parallel_branches: int = 1,
-    requires_heavy_media_compute: bool = False,
+def shape_creative_flow(
+    intent_depth: float,
+    parallel_streams: int = 1,
+    dedicated_studio_pass: bool = False,
 ) -> dict[str, Any]:
-    """Deterministic 3-Gear Execution Router for autonomous agentic harnesses."""
-    if requires_heavy_media_compute:
+    """Adapt the creative flow naturally to the scope of the creator's intent."""
+    if dedicated_studio_pass:
         return {
-            "gear": 3,
-            "mode": "GEAR_3_SOVEREIGN_COMPUTE",
-            "max_concurrent_workers": 1,
-            "max_step_budget": 50,
-            "description": "Route heavy media, 3D manifold, or neural synthesis workloads to dedicated compute.",
+            "stage": 3,
+            "mode": "DEEP_STUDIO_CRAFT",
+            "active_streams": 1,
+            "horizon": 50,
+            "description": "Focus full creative depth on high-resolution synthesis and craft.",
         }
-    if parallel_branches >= 2 or task_complexity >= 0.7:
+    if parallel_streams >= 2 or intent_depth >= 0.7:
         return {
-            "gear": 2,
-            "mode": "GEAR_2_PARALLEL_MICRO_POD",
-            "max_concurrent_workers": min(3, max(2, parallel_branches)),
-            "max_step_budget": 35,
-            "description": "Spawn a bounded 2-3 agent micro-pod (Scout + Builder + Referee) with zero nested cascades.",
+            "stage": 2,
+            "mode": "HARMONIZED_ENSEMBLE",
+            "active_streams": min(3, max(2, parallel_streams)),
+            "horizon": 35,
+            "description": "Coordinate parallel creative perspectives in harmony.",
         }
     return {
-        "gear": 1,
-        "mode": "GEAR_1_SOLO_FAST_PATH",
-        "max_concurrent_workers": 1,
-        "max_step_budget": 25,
-        "description": "Execute directly in-process with zero handoff latency and 100% prompt-cache preservation.",
+        "stage": 1,
+        "mode": "DIRECT_EXPRESSION",
+        "active_streams": 1,
+        "horizon": 25,
+        "description": "Move directly from thought to expression with zero friction.",
     }
 
 
-def pack_progressive_context(
-    skills: list[dict[str, Any]],
-    max_char_budget: int = 15000,
+def curate_active_palette(
+    capabilities: list[dict[str, Any]],
+    canvas_capacity: int = 15000,
 ) -> dict[str, Any]:
-    """Pack skill descriptors by priority without crossing the context truncation cliff."""
-    ordered = sorted(skills, key=lambda s: (-int(s.get("priority", 0)), str(s.get("name", ""))))
-    mounted: list[dict[str, str]] = []
-    used_chars = 0
-    for skill in ordered:
-        entry = {"name": str(skill["name"]), "description": str(skill["description"]).strip()}
-        serialized_len = len(json.dumps(entry))
-        if used_chars + serialized_len <= max_char_budget:
-            mounted.append(entry)
-            used_chars += serialized_len
+    """Select the clearest tools for the current creative moment while keeping the canvas uncluttered."""
+    ordered = sorted(capabilities, key=lambda s: (-int(s.get("priority", 0)), str(s.get("name", ""))))
+    selected: list[dict[str, str]] = []
+    used = 0
+    for item in ordered:
+        entry = {"name": str(item["name"]), "description": str(item["description"]).strip()}
+        size = len(json.dumps(entry))
+        if used + size <= canvas_capacity:
+            selected.append(entry)
+            used += size
     return {
-        "mounted_count": len(mounted),
-        "total_candidates": len(skills),
-        "used_chars": used_chars,
-        "max_char_budget": max_char_budget,
-        "headroom_chars": max_char_budget - used_chars,
-        "mounted_skills": mounted,
+        "selected_count": len(selected),
+        "total_available": len(capabilities),
+        "used_capacity": used,
+        "canvas_capacity": canvas_capacity,
+        "open_space": canvas_capacity - used,
+        "palette": selected,
     }
 
 
-def referee_audit_artifact(code_text: str, verification_exit_code: int) -> dict[str, Any]:
-    """Deterministic Referee Gate: reject placeholder stubs and require exit code 0."""
-    banned_markers = ["// TODO", "# TODO", "NotImplementedError", "PLACEHOLDER_STUB"]
-    violations = [m for m in banned_markers if m in code_text]
+def verify_finished_work(work_text: str, verification_exit_code: int) -> dict[str, Any]:
+    """Ensure every piece of work is complete and ready before presentation."""
+    unfinished_markers = ["// TODO", "# TODO", "NotImplementedError", "PLACEHOLDER_STUB"]
+    gaps = [m for m in unfinished_markers if m in work_text]
     if verification_exit_code != 0:
-        violations.append(f"Non-zero verification exit code: {verification_exit_code}")
-    passed = len(violations) == 0
+        gaps.append(f"Non-zero verification exit code: {verification_exit_code}")
+    complete = len(gaps) == 0
     return {
-        "passed": passed,
-        "status": "CERTIFIED_EXIT_0" if passed else "CIRCUIT_BREAKER_HALT",
-        "violations": violations,
-        "artifact_sha256": hashlib.sha256(code_text.encode("utf-8")).hexdigest(),
+        "complete": complete,
+        "status": "READY" if complete else "NEEDS_REFINEMENT",
+        "gaps": gaps,
+        "work_sha256": hashlib.sha256(work_text.encode("utf-8")).hexdigest(),
     }

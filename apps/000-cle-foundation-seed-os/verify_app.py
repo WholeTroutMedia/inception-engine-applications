@@ -1,32 +1,32 @@
 #!/usr/bin/env python3
-"""Deterministic Verification Suite for 000-cle-foundation-seed-os."""
+"""Verification Suite for Creative Liberation Engine (000-cle-foundation-seed-os)."""
 
-from engine import pack_progressive_context, referee_audit_artifact, route_execution_gear
+from engine import curate_active_palette, shape_creative_flow, verify_finished_work
 
 
 def main() -> int:
-    g1 = route_execution_gear(0.25, parallel_branches=1, requires_heavy_media_compute=False)
-    g2 = route_execution_gear(0.85, parallel_branches=4, requires_heavy_media_compute=False)
-    g3 = route_execution_gear(0.50, parallel_branches=1, requires_heavy_media_compute=True)
-    assert g1["gear"] == 1 and g1["max_concurrent_workers"] == 1
-    assert g2["gear"] == 2 and g2["max_concurrent_workers"] == 3
-    assert g3["gear"] == 3 and g3["mode"] == "GEAR_3_SOVEREIGN_COMPUTE"
+    s1 = shape_creative_flow(0.25, parallel_streams=1, dedicated_studio_pass=False)
+    s2 = shape_creative_flow(0.85, parallel_streams=4, dedicated_studio_pass=False)
+    s3 = shape_creative_flow(0.50, parallel_streams=1, dedicated_studio_pass=True)
+    assert s1["stage"] == 1 and s1["active_streams"] == 1
+    assert s2["stage"] == 2 and s2["active_streams"] == 3
+    assert s3["stage"] == 3 and s3["mode"] == "DEEP_STUDIO_CRAFT"
 
-    sample_skills = [
-        {"name": f"skill-{i:02d}", "description": "Deterministic capability descriptor " * 4, "priority": i}
-        for i in range(40)
+    sample_palette = [
+        {"name": f"craft-{i:02d}", "description": "Open creative capability " * 4, "priority": i}
+        for i in range(25)
     ]
-    packed = pack_progressive_context(sample_skills, max_char_budget=1800)
-    assert packed["used_chars"] <= 1800
-    assert packed["mounted_skills"][0]["name"] == "skill-39"
+    curated = curate_active_palette(sample_palette, canvas_capacity=1800)
+    assert curated["used_capacity"] <= 1800
+    assert curated["palette"][0]["name"] == "craft-24"
 
-    clean_audit = referee_audit_artifact("def solve(x):\n    return x * 2\n", verification_exit_code=0)
-    assert clean_audit["passed"] is True and clean_audit["status"] == "CERTIFIED_EXIT_0"
+    clean_work = verify_finished_work("def create(x):\n    return x * 2\n", verification_exit_code=0)
+    assert clean_work["complete"] is True and clean_work["status"] == "READY"
 
-    stub_audit = referee_audit_artifact("def solve(x):\n    raise NotImplementedError\n", verification_exit_code=0)
-    assert stub_audit["passed"] is False and stub_audit["status"] == "CIRCUIT_BREAKER_HALT"
+    incomplete_work = verify_finished_work("def create(x):\n    raise NotImplementedError\n", verification_exit_code=0)
+    assert incomplete_work["complete"] is False and incomplete_work["status"] == "NEEDS_REFINEMENT"
 
-    print("[PASS] 000-cle-foundation-seed-os verified (3-Gear Router + Context Budgeter + Referee Gate, exit code 0).")
+    print("[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0).")
     return 0
 
 

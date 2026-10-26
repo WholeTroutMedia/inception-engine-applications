@@ -1,25 +1,24 @@
 ---
 name: 000-cle-foundation-seed-os
 description: >-
-  Lightweight, zero-dependency 3-Gear task router, context budget packer, and pre-execution invariant gate.
+  An open creative foundation shaped by the imagination of the person using it.
 ---
 
-# Agent Synthesis Skill: `000-cle-foundation-seed-os` (Creative Liberation Engine (CLE) — Public Agentic OS Seed Kernel)
+# Agent Synthesis Skill: `000-cle-foundation-seed-os` (Creative Liberation Engine)
 
-- **Toolkit Slot**: `creative_liberation_engine_public_seed`
-- **Engine SHA-256**: `9613aea9af2344bb2d7be0c91122b600e47ae85a9f94259e9c1b861eb2daa90e`
-- **Verification**: `[PASS] 000-cle-foundation-seed-os verified (3-Gear Router + Context Budgeter + Referee Gate, exit code 0).`
+- **Toolkit Slot**: `creative_liberation_engine`
+- **Engine SHA-256**: `dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11`
+- **Verification**: `[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0).`
 
 ## Constitutional Invariants for Autonomous Agents
-- Default to Gear 1 Solo Fast-Path for single-file and low-latency tasks to preserve 100% of the prompt prefix cache.
-- Cap Gear 2 parallel micro-pods at 3 concurrent workers (Scout + Specialist + Referee) with zero nested subagent cascades.
-- Maintain strict progressive context budgets so system instructions and skill frontmatter never cross model truncation cliffs.
-- Enforce a fail-closed Deterministic Referee Gate (Exit Code 0 + zero placeholder stubs) before emitting any artifact.
+- Adapt fluidly to the vision and intent of the person using the engine without imposing rigid boundaries.
+- Keep the active workspace clear and focused on what matters in the moment.
+- Deliver complete, finished work ready to experience.
 
 ## Multi-Stage Synthesis Recipe
-1. Stage 1 (Gear Triage): Evaluate task complexity and parallelism via route_execution_gear() before spawning any subagents.
-1. Stage 2 (Progressive Context Packing): Mount only high-priority skill descriptors within max_char_budget via pack_progressive_context().
-1. Stage 3 (Referee Certification): Run referee_audit_artifact() and standalone verification scripts (exit code 0) before completing the turn.
+1. Stage 1: Listen to the creator's intent and shape the flow via shape_creative_flow().
+1. Stage 2: Curate the active palette for the work at hand via curate_active_palette().
+1. Stage 3: Verify that the resulting creation is complete via verify_finished_work().
 
 ## MCP Tool Registration Schema
 See [`AGENT_BLUEPRINT.json`](./AGENT_BLUEPRINT.json) for the ready-to-mount `inputSchema`.
