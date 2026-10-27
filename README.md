@@ -26,7 +26,7 @@ Each micro-application under [`apps/`](./apps/) is structured with two complemen
 ---
 
 ## Companion Repository
-- **[`WholeTroutMedia/open-source-bounties`](https://github.com/WholeTroutMedia/open-source-bounties)**: Our companion open-source bug-fix and bounty verification ledger, complete with our [7-Beacon Counter-Bot Radar](https://github.com/WholeTroutMedia/open-source-bounties/blob/main/BOT_RADAR_AND_SIGNAL_PROOF.md).
+- **[`WholeTroutMedia/open-source-bounties`](https://github.com/WholeTroutMedia/open-source-bounties)**: Our companion open-source bug-fix and bounty verification ledger.
 
 
 ---

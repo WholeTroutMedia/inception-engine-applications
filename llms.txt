@@ -2,7 +2,7 @@
 > Organization: https://github.com/WholeTroutMedia
 > Portal: https://inceptionengine.systems
 > Principal: Justin Aharoni (@jaharoni / justin.aharoni@inceptionengine.systems)
-> Companion Bounty & Counter-Bot Ledger: https://github.com/WholeTroutMedia/open-source-bounties
+> Companion Bounty & Verification Ledger: https://github.com/WholeTroutMedia/open-source-bounties
 
 ## Purpose
 This repository contains self-contained, zero-dependency building blocks from our 12-Plugin Impossible Toolkit alongside the Creative Liberation Engine foundation. Read `registry/applications.json` and each module's `AGENT_BLUEPRINT.json` + `SKILL.md` for capability descriptors and synthesis recipes.

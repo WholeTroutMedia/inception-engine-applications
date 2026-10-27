@@ -2,7 +2,7 @@
   "organization": "WholeTroutMedia",
   "repository": "WholeTroutMedia/inception-engine-applications",
   "cadence": "Bi-Weekly (Every 14 Days)",
-  "updated_at": "2026-10-26T16:43:57.502691+00:00",
+  "updated_at": "2026-10-27T17:35:31.494768+00:00",
   "active_and_staged_apps": [
     {
       "app_id": "000-cle-foundation-seed-os",
@@ -17,7 +17,7 @@
       "engine_sha256": "dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11",
       "verification_output": "[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/000-cle-foundation-seed-os",
-      "updated_at": "2026-10-26T16:43:57.443668+00:00"
+      "updated_at": "2026-10-27T17:35:31.420276+00:00"
     },
     {
       "app_id": "001-seal-pdf-media-notary",
@@ -32,7 +32,7 @@
       "engine_sha256": "f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c",
       "verification_output": "[PASS] 001-seal-pdf-media-notary verified (RFC 6962 Merkle root + EXIF transpose + tamper rejection, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/001-seal-pdf-media-notary",
-      "updated_at": "2026-10-26T16:43:57.465982+00:00"
+      "updated_at": "2026-10-27T17:35:31.442465+00:00"
     },
     {
       "app_id": "002-extract-pbr-material-synth",
@@ -47,7 +47,7 @@
       "engine_sha256": "0125029d67a651debddcc1d4540993aebde734355dfa4fbcbe6a9c5ae0a9ed7b",
       "verification_output": "[PASS] 002-extract-pbr-material-synth verified (256 unit-length tangent normals + roughness bounds, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/002-extract-pbr-material-synth",
-      "updated_at": "2026-10-26T16:43:57.483098+00:00"
+      "updated_at": "2026-10-27T17:35:31.460809+00:00"
     },
     {
       "app_id": "003-smart-timeline-stem-ducker",
@@ -62,7 +62,7 @@
       "engine_sha256": "ca687984b6343fcacdcbef0180ff75529d80c80e8d959e04e4840cd99c9c9c6c",
       "verification_output": "[PASS] 003-smart-timeline-stem-ducker verified (FCPXML 1.10 DOM + -18.0dB dialogue ducking keyframes, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/003-smart-timeline-stem-ducker",
-      "updated_at": "2026-10-26T16:43:57.502638+00:00"
+      "updated_at": "2026-10-27T17:35:31.494716+00:00"
     }
   ],
   "upcoming_roadmap": [
