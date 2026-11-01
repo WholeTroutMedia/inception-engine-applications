@@ -1,6 +1,6 @@
 # `000-cle-foundation-seed-os` — Creative Liberation Engine
 
-- **Release Drop**: `Foundation Seed #000` (Foundation Seed (Live Published))
+- **Release Drop**: `Foundation Seed #000` (Cycle 01 (Live Published))
 - **Domain**: Open Creative Foundation (`creative_liberation_engine`)
 - **Dependencies**: Python 3.10+ standard library only (`0` external packages required)
 - **Verification**: `python3 verify_app.py` -> `Exit Code 0`
