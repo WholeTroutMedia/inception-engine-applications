@@ -2,7 +2,12 @@
   "organization": "WholeTroutMedia",
   "repository": "WholeTroutMedia/inception-engine-applications",
   "cadence": "Bi-Weekly (Every 14 Days)",
-  "updated_at": "2026-11-01T14:00:00.459624+00:00",
+  "updated_at": "2026-11-05T22:12:36.982700+00:00",
+  "factory_umbrella_identity": {
+    "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+    "factory_contract_base_sepolia": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+    "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34"
+  },
   "active_and_staged_apps": [
     {
       "app_id": "000-cle-foundation-seed-os",
@@ -10,14 +15,23 @@
       "title": "Creative Liberation Engine",
       "toolkit_slot": "creative_liberation_engine",
       "category": "Open Creative Foundation",
-      "cadence_window": "Cycle 01 (Live Published)",
+      "cadence_window": "Foundation Seed (Live Published)",
       "status": "PUBLISHED_LIVE",
       "discreet_summary": "An open creative foundation shaped by the imagination of the person using it.",
       "agent_magic_summary": "Provides an open, unprescribed creative seed that adapts to the vision and intent of the person working with it, turning ideas into finished work without artificial boundaries.",
       "engine_sha256": "dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11",
+      "factory_blockchain_verification": {
+        "stamp_mode": "SOVEREIGN_TOOL_FACTORY_UMBRELLA_SEAL",
+        "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+        "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+        "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
+        "keccak256_tool_id": "0xf3f9db6727423469aef62e897b1cb34af6bec3f0a78fd281534a7b0cab7a20f4",
+        "engine_sha256": "dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11",
+        "status": "FACTORY_MERKLE_VERIFIED"
+      },
       "verification_output": "[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/000-cle-foundation-seed-os",
-      "updated_at": "2026-11-01T14:00:00.386156+00:00"
+      "updated_at": "2026-11-05T22:12:36.923352+00:00"
     },
     {
       "app_id": "001-seal-pdf-media-notary",
@@ -25,14 +39,23 @@
       "title": "Cryptographic Media Notary & EXIF Orientation / Privacy Scrubber",
       "toolkit_slot": "seal_pdf_notary + utility_exif_scrubber",
       "category": "Documents, Forensics & Provenance",
-      "cadence_window": "Cycle 02 (Live Published)",
+      "cadence_window": "Cycle 01 (Live Published)",
       "status": "PUBLISHED_LIVE",
       "discreet_summary": "Zero-dependency RFC 6962 Merkle audit tree, SHA-256 media notary, and EXIF orientation/GPS privacy normalizer.",
       "agent_magic_summary": "Encodes full C2PA-compatible cryptographic chain-of-custody attestation schemas, EXIF 8-state affine transposition matrices, and MCP tool definitions for autonomous vault ingestion.",
       "engine_sha256": "f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c",
+      "factory_blockchain_verification": {
+        "stamp_mode": "SOVEREIGN_TOOL_FACTORY_UMBRELLA_SEAL",
+        "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+        "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+        "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
+        "keccak256_tool_id": "0xa05df17e766b7c54a456e06f295cd65b96a353fac801aaa0abc77d6f47a1b84e",
+        "engine_sha256": "f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c",
+        "status": "FACTORY_MERKLE_VERIFIED"
+      },
       "verification_output": "[PASS] 001-seal-pdf-media-notary verified (RFC 6962 Merkle root + EXIF transpose + tamper rejection, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/001-seal-pdf-media-notary",
-      "updated_at": "2026-11-01T14:00:00.407772+00:00"
+      "updated_at": "2026-11-05T22:12:36.945376+00:00"
     },
     {
       "app_id": "002-extract-pbr-material-synth",
@@ -40,14 +63,23 @@
       "title": "Procedural Tangent-Space PBR Material & Normal Map Synthesizer",
       "toolkit_slot": "extract_pbr_materials",
       "category": "3D, Shaders & Spatial Computing",
-      "cadence_window": "Cycle 03 (Live Published)",
-      "status": "PUBLISHED_LIVE",
+      "cadence_window": "Cycle 02 (Staged Bi-Weekly Queue)",
+      "status": "STAGED_QUEUE",
       "discreet_summary": "Pure-Python Sobel-Scharr tangent-space normal, roughness, and height map synthesizer from heightfield grids.",
       "agent_magic_summary": "Provides autonomous 3D agents with analytical Sobel-Scharr gradient operators, unit-quaternion normal normalization, and energy-conserving roughness inversion for headless Blender/Three.js PBR pipelines.",
       "engine_sha256": "0125029d67a651debddcc1d4540993aebde734355dfa4fbcbe6a9c5ae0a9ed7b",
+      "factory_blockchain_verification": {
+        "stamp_mode": "SOVEREIGN_TOOL_FACTORY_UMBRELLA_SEAL",
+        "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+        "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+        "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
+        "keccak256_tool_id": "0x3194b3661e6c42d9e06ec2fa8aac316dad4e606ef1664b866ef95d5a8f12c421",
+        "engine_sha256": "0125029d67a651debddcc1d4540993aebde734355dfa4fbcbe6a9c5ae0a9ed7b",
+        "status": "FACTORY_MERKLE_VERIFIED"
+      },
       "verification_output": "[PASS] 002-extract-pbr-material-synth verified (256 unit-length tangent normals + roughness bounds, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/002-extract-pbr-material-synth",
-      "updated_at": "2026-11-01T14:00:00.426278+00:00"
+      "updated_at": "2026-11-05T22:12:36.963134+00:00"
     },
     {
       "app_id": "003-smart-timeline-stem-ducker",
@@ -60,9 +92,18 @@
       "discreet_summary": "Compiles declarative JSON edit decision lists and speech intervals into frame-accurate FCPXML 1.10 timelines with -18dB music ducking.",
       "agent_magic_summary": "Gives autonomous video agents a complete TimelineAST-to-FCPXML 1.10 compiler with rational NTSC/film frame math and automatic dialogue lookahead ducking curves for DaVinci Resolve.",
       "engine_sha256": "ca687984b6343fcacdcbef0180ff75529d80c80e8d959e04e4840cd99c9c9c6c",
+      "factory_blockchain_verification": {
+        "stamp_mode": "SOVEREIGN_TOOL_FACTORY_UMBRELLA_SEAL",
+        "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+        "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+        "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
+        "keccak256_tool_id": "0x5619becf9868d7e26bc7cc40eff8f4280ec6e93f2780c7cba99e174a17a55975",
+        "engine_sha256": "ca687984b6343fcacdcbef0180ff75529d80c80e8d959e04e4840cd99c9c9c6c",
+        "status": "FACTORY_MERKLE_VERIFIED"
+      },
       "verification_output": "[PASS] 003-smart-timeline-stem-ducker verified (FCPXML 1.10 DOM + -18.0dB dialogue ducking keyframes, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/inception-engine-applications/tree/main/apps/003-smart-timeline-stem-ducker",
-      "updated_at": "2026-11-01T14:00:00.459583+00:00"
+      "updated_at": "2026-11-05T22:12:36.982646+00:00"
     }
   ],
   "upcoming_roadmap": [

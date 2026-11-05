@@ -8,6 +8,7 @@ description: >-
 
 - **Toolkit Slot**: `separate_audio_stems + smart_video_squeezer`
 - **Engine SHA-256**: `ca687984b6343fcacdcbef0180ff75529d80c80e8d959e04e4840cd99c9c9c6c`
+- **Factory Blockchain Contract**: `0xB40F51866F1efdBd24A1549827e0A4e55d3005DE` (`Keccak-256`: `0x5619becf9868d7e2...`)
 - **Verification**: `[PASS] 003-smart-timeline-stem-ducker verified (FCPXML 1.10 DOM + -18.0dB dialogue ducking keyframes, exit code 0).`
 
 ## Constitutional Invariants for Autonomous Agents

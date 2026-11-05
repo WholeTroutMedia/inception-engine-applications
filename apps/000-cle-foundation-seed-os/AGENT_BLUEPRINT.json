@@ -40,5 +40,14 @@
     "Stage 3: Verify that the resulting creation is complete via verify_finished_work()."
   ],
   "engine_sha256": "dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11",
-  "verification_receipt": "[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0)."
+  "verification_receipt": "[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0).",
+  "factory_blockchain_verification": {
+    "stamp_mode": "SOVEREIGN_TOOL_FACTORY_UMBRELLA_SEAL",
+    "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+    "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+    "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
+    "keccak256_tool_id": "0xf3f9db6727423469aef62e897b1cb34af6bec3f0a78fd281534a7b0cab7a20f4",
+    "engine_sha256": "dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11",
+    "status": "FACTORY_MERKLE_VERIFIED"
+  }
 }

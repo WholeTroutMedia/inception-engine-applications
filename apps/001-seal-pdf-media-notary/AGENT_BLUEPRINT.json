@@ -39,5 +39,14 @@
     "Stage 3 (Attest): Compute SHA-256 + RFC 6962 Merkle root and bind to normalized metadata digest."
   ],
   "engine_sha256": "f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c",
-  "verification_receipt": "[PASS] 001-seal-pdf-media-notary verified (RFC 6962 Merkle root + EXIF transpose + tamper rejection, exit code 0)."
+  "verification_receipt": "[PASS] 001-seal-pdf-media-notary verified (RFC 6962 Merkle root + EXIF transpose + tamper rejection, exit code 0).",
+  "factory_blockchain_verification": {
+    "stamp_mode": "SOVEREIGN_TOOL_FACTORY_UMBRELLA_SEAL",
+    "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+    "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+    "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
+    "keccak256_tool_id": "0xa05df17e766b7c54a456e06f295cd65b96a353fac801aaa0abc77d6f47a1b84e",
+    "engine_sha256": "f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c",
+    "status": "FACTORY_MERKLE_VERIFIED"
+  }
 }

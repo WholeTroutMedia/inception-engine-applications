@@ -8,6 +8,7 @@ description: >-
 
 - **Toolkit Slot**: `creative_liberation_engine`
 - **Engine SHA-256**: `dfb2b5c27d03c29a32749007db2fe3b33ed94d62ac95c781aed590a5f47b8b11`
+- **Factory Blockchain Contract**: `0xB40F51866F1efdBd24A1549827e0A4e55d3005DE` (`Keccak-256`: `0xf3f9db6727423469...`)
 - **Verification**: `[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0).`
 
 ## Constitutional Invariants for Autonomous Agents

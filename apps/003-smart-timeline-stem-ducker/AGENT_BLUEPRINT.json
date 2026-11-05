@@ -38,5 +38,14 @@
     "Stage 3: Emit FCPXML 1.10 with rational frame boundaries and -18dB music stem keyframe envelopes."
   ],
   "engine_sha256": "ca687984b6343fcacdcbef0180ff75529d80c80e8d959e04e4840cd99c9c9c6c",
-  "verification_receipt": "[PASS] 003-smart-timeline-stem-ducker verified (FCPXML 1.10 DOM + -18.0dB dialogue ducking keyframes, exit code 0)."
+  "verification_receipt": "[PASS] 003-smart-timeline-stem-ducker verified (FCPXML 1.10 DOM + -18.0dB dialogue ducking keyframes, exit code 0).",
+  "factory_blockchain_verification": {
+    "stamp_mode": "SOVEREIGN_TOOL_FACTORY_UMBRELLA_SEAL",
+    "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
+    "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
+    "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
+    "keccak256_tool_id": "0x5619becf9868d7e26bc7cc40eff8f4280ec6e93f2780c7cba99e174a17a55975",
+    "engine_sha256": "ca687984b6343fcacdcbef0180ff75529d80c80e8d959e04e4840cd99c9c9c6c",
+    "status": "FACTORY_MERKLE_VERIFIED"
+  }
 }

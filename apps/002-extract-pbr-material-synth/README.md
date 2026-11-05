@@ -1,9 +1,10 @@
 # `002-extract-pbr-material-synth` — Procedural Tangent-Space PBR Material & Normal Map Synthesizer
 
-- **Release Drop**: `Drop #002` (Cycle 03 (Live Published))
+- **Release Drop**: `Drop #002` (Cycle 02 (Staged Bi-Weekly Queue))
 - **Domain**: 3D, Shaders & Spatial Computing (`extract_pbr_materials`)
 - **Dependencies**: Python 3.10+ standard library only (`0` external packages required)
 - **Verification**: `python3 verify_app.py` -> `Exit Code 0`
+- **Blockchain Provenance**: Verified under Sovereign Tool Factory (`0xB40F51866F1efdBd24A1549827e0A4e55d3005DE` · Issuer `0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC`)
 
 ## Overview
 Pure-Python Sobel-Scharr tangent-space normal, roughness, and height map synthesizer from heightfield grids.
