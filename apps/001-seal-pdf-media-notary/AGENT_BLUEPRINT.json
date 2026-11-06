@@ -45,7 +45,7 @@
     "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
     "factory_contract": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
     "protocol_treasury": "0x58157844e65F6c1D6F3D0DA8ED0a49603b1A7C34",
-    "keccak256_tool_id": "0xa05df17e766b7c54a456e06f295cd65b96a353fac801aaa0abc77d6f47a1b84e",
+    "keccak256_tool_id": "0xe0bfa93409387bcc2b0d5656987a5b113b1b1c0673249e209e7ed6b68cf5b6c1",
     "engine_sha256": "f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c",
     "status": "FACTORY_MERKLE_VERIFIED"
   }

@@ -8,7 +8,7 @@ description: >-
 
 - **Toolkit Slot**: `extract_pbr_materials`
 - **Engine SHA-256**: `0125029d67a651debddcc1d4540993aebde734355dfa4fbcbe6a9c5ae0a9ed7b`
-- **Factory Blockchain Contract**: `0xB40F51866F1efdBd24A1549827e0A4e55d3005DE` (`Keccak-256`: `0x3194b3661e6c42d9...`)
+- **Factory Blockchain Contract**: `0xB40F51866F1efdBd24A1549827e0A4e55d3005DE` (`Keccak-256`: `0xf35965c277dcf890...`)
 - **Verification**: `[PASS] 002-extract-pbr-material-synth verified (256 unit-length tangent normals + roughness bounds, exit code 0).`
 
 ## Constitutional Invariants for Autonomous Agents

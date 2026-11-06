@@ -1,8 +1,8 @@
-# WholeTroutMedia — Master Open-Source Application Ledger
+# WholeTroutMedia · Master Open-Source Application Ledger
 
-*Last synchronized: 2026-11-05 22:12 UTC · Release Cadence: Bi-Weekly (Every 2 Weeks)*
+*Last synchronized: 2026-11-06 00:45 UTC · Release Cadence: Bi-Weekly (Every 2 Weeks)*
 
-This ledger tracks every self-contained micro-application published by **WholeTroutMedia** and **Inception Engine Systems** ([`https://inceptionengine.systems`](https://inceptionengine.systems)) from our **12-Plugin Impossible Toolkit**.
+This ledger tracks every self-contained micro-application published by **WholeTroutMedia / Inception Engine Systems** ([`justinaharoni.com`](https://justinaharoni.com)) from our **12-Plugin Impossible Toolkit**.
 
 > **Separation of Concerns**:
 > - **Upstream Bug Fixes & Bounties**: Tracked separately in [`WholeTroutMedia/open-source-bounties`](https://github.com/WholeTroutMedia/open-source-bounties)
@@ -34,13 +34,3 @@ This ledger tracks every self-contained micro-application published by **WholeTr
 | `Drop #010` | `010-watertight-manifold-mesh-bridge` | `mesh_3d_from_image` | RANSAC Plane Intersection & Watertight Manifold Half-Edge Validator | `Cycle 10 (+14 Weeks)` |
 | `Drop #011` | `011-gaussian-splat-outlier-pruner` | `clean_gaussian_splat` | 3D Gaussian Splatting Opacity & Mahalanobis Floater Pruner | `Cycle 11 (+16 Weeks)` |
 | `Drop #012` | `012-burmester-kinematic-rig-solver` | `kinetik_procedural_rig` | Four-Bar Burmester Planar Linkage & Procedural Animatronic Joint Solver | `Cycle 12 (+18 Weeks)` |
-
-
----
-**Human Review & Provenance**
-- **Principal & Reviewer**: Justin Aharoni ([@jaharoni](https://github.com/jaharoni))
-- **Direct Engineering Contact**: `justin.aharoni@inceptionengine.systems` / `jaharoni@gmail.com`
-- **Engineering Studio**: [WholeTroutMedia](https://github.com/WholeTroutMedia) / [Inception Engine Systems](https://inceptionengine.systems)
-- **Companion Verification Ledger**: [WholeTroutMedia/open-source-bounties](https://github.com/WholeTroutMedia/open-source-bounties)
-
-*this has been reviewed by, approved by and submitted on behalf of jaharoni@gmail.com*

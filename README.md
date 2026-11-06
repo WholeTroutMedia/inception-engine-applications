@@ -1,8 +1,12 @@
-# WholeTroutMedia — Inception Engine Open-Source Micro-Applications
+<p align="center">
+  <img src="./assets/wholetrout-executive-masthead.svg" alt="WholeTroutMedia and Inception Engine Systems Executive Masthead" width="100%" />
+</p>
 
-Welcome to the public open-source micro-application repository for **WholeTroutMedia** ([`https://github.com/WholeTroutMedia`](https://github.com/WholeTroutMedia)) and **Inception Engine Systems** ([`https://inceptionengine.systems`](https://inceptionengine.systems)), led and reviewed by **Justin Aharoni** ([@jaharoni](https://github.com/jaharoni) · `justin.aharoni@inceptionengine.systems` / `jaharoni@gmail.com`).
+# WholeTroutMedia · Inception Engine Open-Source Micro-Applications
 
-Every two weeks, we open-source a self-contained, zero-dependency micro-application distilled from our internal **12-Plugin Impossible Toolkit** across document forensics, procedural 3D/PBR synthesis, and frame-accurate NLE media processing.
+Public open-source micro-application repository for **WholeTroutMedia / Inception Engine Systems**, architected and reviewed by **[Justin Aharoni (`@jaharoni`)](https://github.com/jaharoni)** ([`justinaharoni.com`](https://justinaharoni.com) · [`contact@jaharoni.com`](mailto:contact@jaharoni.com)).
+
+Every two weeks, we open-source a self-contained, zero-dependency reference utility distilled from our **12-Plugin Impossible Toolkit** across document forensics, procedural 3D/PBR synthesis, and frame-accurate NLE media processing.
 
 ---
 
@@ -25,15 +29,6 @@ Each micro-application under [`apps/`](./apps/) is structured with two complemen
 
 ---
 
-## Companion Repository
-- **[`WholeTroutMedia/open-source-bounties`](https://github.com/WholeTroutMedia/open-source-bounties)**: Our companion open-source bug-fix and bounty verification ledger.
-
-
----
-**Human Review & Provenance**
-- **Principal & Reviewer**: Justin Aharoni ([@jaharoni](https://github.com/jaharoni))
-- **Direct Engineering Contact**: `justin.aharoni@inceptionengine.systems` / `jaharoni@gmail.com`
-- **Engineering Studio**: [WholeTroutMedia](https://github.com/WholeTroutMedia) / [Inception Engine Systems](https://inceptionengine.systems)
-- **Companion Verification Ledger**: [WholeTroutMedia/open-source-bounties](https://github.com/WholeTroutMedia/open-source-bounties)
-
-*this has been reviewed by, approved by and submitted on behalf of jaharoni@gmail.com*
+## Companion Engineering Repositories
+- **[`WholeTroutMedia/open-source-bounties`](https://github.com/WholeTroutMedia/open-source-bounties)**: Upstream open-source PR ledger, `105+` root-cause case studies, and enterprise engineering sprints.
+- **[`WholeTroutMedia/oss-verification-sandbox`](https://github.com/WholeTroutMedia/oss-verification-sandbox)**: Zero-dependency UTF-8 stream boundary, ASGI 3.0 lifespan, and PR readiness verification workbench.
