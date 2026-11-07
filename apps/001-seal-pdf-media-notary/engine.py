@@ -68,7 +68,7 @@ def notarize_artifact(payload: bytes, metadata: dict[str, Any], block_size: int 
     merkle_root = compute_merkle_root(chunks)
     envelope_digest = hashlib.sha256(f"{payload_sha256}:{merkle_root}:".encode("utf-8") + meta_canonical).hexdigest()
     return {
-        "schema": "https://inceptionengine.systems/schemas/notary-v1.json",
+        "schema": "https://justinaharoni.com/schemas/notary-v1.json",
         "payload_bytes": len(payload),
         "payload_sha256": payload_sha256,
         "rfc6962_merkle_root": merkle_root,
