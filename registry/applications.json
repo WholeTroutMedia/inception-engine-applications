@@ -2,7 +2,7 @@
   "organization": "WholeTroutMedia",
   "repository": "WholeTroutMedia/open-source-micro-tools",
   "cadence": "Bi-Weekly (Every 14 Days)",
-  "updated_at": "2026-11-07T11:24:06.972087+00:00",
+  "updated_at": "2026-11-07T11:25:26.824154+00:00",
   "factory_umbrella_identity": {
     "issuer_wallet": "0x6498Ab787da69d7e7Fd8A11E00F27F42e197B3DC",
     "factory_contract_base_sepolia": "0xB40F51866F1efdBd24A1549827e0A4e55d3005DE",
@@ -31,7 +31,7 @@
       },
       "verification_output": "[PASS] 000-cle-foundation-seed-os (Creative Liberation Engine) verified (exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/open-source-micro-tools/tree/main/apps/000-cle-foundation-seed-os",
-      "updated_at": "2026-11-07T11:24:06.899766+00:00"
+      "updated_at": "2026-11-07T11:25:26.766155+00:00"
     },
     {
       "app_id": "001-seal-pdf-media-notary",
@@ -55,7 +55,7 @@
       },
       "verification_output": "[PASS] 001-seal-pdf-media-notary verified (RFC 6962 Merkle root + EXIF transpose + tamper rejection, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/open-source-micro-tools/tree/main/apps/001-seal-pdf-media-notary",
-      "updated_at": "2026-11-07T11:24:06.920561+00:00"
+      "updated_at": "2026-11-07T11:25:26.787984+00:00"
     },
     {
       "app_id": "002-extract-pbr-material-synth",
@@ -79,7 +79,7 @@
       },
       "verification_output": "[PASS] 002-extract-pbr-material-synth verified (256 unit-length tangent normals + roughness bounds, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/open-source-micro-tools/tree/main/apps/002-extract-pbr-material-synth",
-      "updated_at": "2026-11-07T11:24:06.938596+00:00"
+      "updated_at": "2026-11-07T11:25:26.805613+00:00"
     },
     {
       "app_id": "003-smart-timeline-stem-ducker",
@@ -103,7 +103,7 @@
       },
       "verification_output": "[PASS] 003-smart-timeline-stem-ducker verified (FCPXML 1.10 DOM + -18.0dB dialogue ducking keyframes, exit code 0).",
       "repo_url": "https://github.com/WholeTroutMedia/open-source-micro-tools/tree/main/apps/003-smart-timeline-stem-ducker",
-      "updated_at": "2026-11-07T11:24:06.972039+00:00"
+      "updated_at": "2026-11-07T11:25:26.824108+00:00"
     }
   ],
   "upcoming_roadmap": [
