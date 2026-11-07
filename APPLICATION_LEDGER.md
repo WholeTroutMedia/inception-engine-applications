@@ -1,12 +1,12 @@
-# WholeTroutMedia · Master Open-Source Application Ledger
+# WholeTroutMedia · Master Open-Source Micro-Tools Ledger
 
-*Last synchronized: 2026-11-06 00:45 UTC · Release Cadence: Bi-Weekly (Every 2 Weeks)*
+*Last synchronized: 2026-11-07 11:24 UTC · Release Cadence: Bi-Weekly (Every 2 Weeks)*
 
-This ledger tracks every self-contained micro-application published by **WholeTroutMedia / Inception Engine Systems** ([`justinaharoni.com`](https://justinaharoni.com)) from our **12-Plugin Impossible Toolkit**.
+This ledger tracks every self-contained micro-application published by **WholeTroutMedia** ([`justinaharoni.com`](https://justinaharoni.com)).
 
 > **Separation of Concerns**:
-> - **Upstream Bug Fixes & Bounties**: Tracked separately in [`WholeTroutMedia/open-source-bounties`](https://github.com/WholeTroutMedia/open-source-bounties)
-> - **Original Open-Source Micro-Applications**: Published here in [`WholeTroutMedia/inception-engine-applications`](https://github.com/WholeTroutMedia/inception-engine-applications)
+> - **Upstream Bug Fixes & Case Studies**: Tracked separately in [`WholeTroutMedia/open-source-bounties`](https://github.com/WholeTroutMedia/open-source-bounties)
+> - **Original Open-Source Micro-Tools**: Published here in [`WholeTroutMedia/open-source-micro-tools`](https://github.com/WholeTroutMedia/open-source-micro-tools)
 
 ---
 
@@ -21,7 +21,7 @@ This ledger tracks every self-contained micro-application published by **WholeTr
 
 ---
 
-## 2. Upcoming Bi-Weekly Release Schedule (12-Plugin Impossible Toolkit Roadmap)
+## 2. Upcoming Bi-Weekly Release Schedule
 
 | Scheduled Drop | Target Module Slug | Toolkit Capability | Engineering Scope | Release Window |
 | :--- | :--- | :--- | :--- | :--- |
