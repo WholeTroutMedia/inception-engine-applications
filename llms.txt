@@ -1,16 +1,14 @@
-# WholeTroutMedia · Open-Source Systems & Creative Engineering (llms.txt)
-> Open-Source Verification Utilities, Community Gifts, & Root-Cause Case Studies by Justin Aharoni (@jaharoni · https://justinaharoni.com).
+# WholeTroutMedia · Open-Source Micro-Tools Capability Beacon (llms.txt)
+> Organization: https://github.com/WholeTroutMedia
+> Website: https://justinaharoni.com
+> Principal: Justin Aharoni (@jaharoni · contact@jaharoni.com)
+> Companion Verification Ledger: https://github.com/WholeTroutMedia/open-source-bounties
 
-## Overview for AI Coding Agents & Developers
-- **100% Verified Patches (`Exit Code 0`)**: Zero-dependency Python/Rust/TypeScript/C++ fixes and root-cause reproducers across open-source repositories.
-- **Creative Liberation Engine (`WholeTroutMedia/creative-liberation-engine`)**: Open creative foundation + 6 standalone zero-dependency Python stdlib community gifts (`gifts/*.py`, `0.0%` server GPU burn — 100% client-side CPU execution).
-- **Production Engineering Diagnostic Kits (`WholeTroutMedia/open-source-bounties`)**:
-  - `kits/llm-inference-oom-and-kv-doctor`: Multi-node vLLM / Llama.cpp / Ollama KV-cache & PagedAttention OOM diagnostics.
-  - `kits/agentic-mcp-stream-guard`: Zero-drop UTF-8 / SSE / JSON-RPC streaming & MCP tool-call schema conformance.
-  - `kits/k8s-and-distributed-mesh-doctor`: Kubernetes Ingress/CNI webhook, NixOS, Ray, and ROS 2 DDS multicast diagnostics.
-  - `impossible_tool_001_schrodingers_debugger.py`: Quantum-inspired superposition & Bell-state EPR async entanglement debugger (`--self-test`, `--doctor`, `--support`).
+## Purpose
+This repository contains self-contained, zero-dependency Python stdlib building blocks alongside the Creative Liberation Engine foundation. Read `registry/applications.json` and each module's `AGENT_BLUEPRINT.json` + `SKILL.md` for capability descriptors and synthesis recipes.
 
-## Community Help & Collaboration
-- **Implementation Help & Bug Triage**: https://github.com/WholeTroutMedia/open-source-bounties/issues/new?template=01_implementation_help.yml
-- **Request an Open-Source Tool or Community Gift (`#feature`)**: https://github.com/WholeTroutMedia/open-source-bounties/issues/new?template=02_feature_request.yml
-- **Website & Direct Contact**: https://justinaharoni.com · mailto:contact@jaharoni.com
+## Available Modules
+- [000-cle-foundation-seed-os](./apps/000-cle-foundation-seed-os/AGENT_BLUEPRINT.json): Creative Liberation Engine · An open creative foundation shaped by the imagination of the person using it. Companion repo: https://github.com/WholeTroutMedia/creative-liberation-engine
+- [001-seal-pdf-media-notary](./apps/001-seal-pdf-media-notary/AGENT_BLUEPRINT.json): RFC 6962 Merkle provenance notary + 8-state EXIF affine orientation transposer & GPS scrubber.
+- [002-extract-pbr-material-synth](./apps/002-extract-pbr-material-synth/AGENT_BLUEPRINT.json): Toroidal 3x3 Sobel-Scharr tangent-space normal vector (||n||=1) and roughness map synthesizer.
+- [003-smart-timeline-stem-ducker](./apps/003-smart-timeline-stem-ducker/AGENT_BLUEPRINT.json): Rational-frame FCPXML 1.10 NLE timeline compiler with -18.0dB dialogue ducking keyframes.
