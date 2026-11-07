@@ -25,7 +25,7 @@
       "app_id": "001-seal-pdf-media-notary",
       "blueprint": "https://raw.githubusercontent.com/WholeTroutMedia/open-source-micro-tools/main/apps/001-seal-pdf-media-notary/AGENT_BLUEPRINT.json",
       "skill": "https://raw.githubusercontent.com/WholeTroutMedia/open-source-micro-tools/main/apps/001-seal-pdf-media-notary/SKILL.md",
-      "engine_sha256": "f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c"
+      "engine_sha256": "2eeeecb92072bbebdc3eb77a394ab4e05518e8d078eb31ff49e2286081622f87"
     },
     {
       "app_id": "002-extract-pbr-material-synth",
