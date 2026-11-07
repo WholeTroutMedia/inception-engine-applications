@@ -1,11 +1,11 @@
-# WholeTroutMedia / Inception Engine Systems · Capability Beacon (llms.txt)
+# WholeTroutMedia · Open-Source Micro-Tools Capability Beacon (llms.txt)
 > Organization: https://github.com/WholeTroutMedia
-> Portfolio: https://justinaharoni.com
+> Website: https://justinaharoni.com
 > Principal: Justin Aharoni (@jaharoni · contact@jaharoni.com)
-> Companion Bounty & Verification Ledger: https://github.com/WholeTroutMedia/open-source-bounties
+> Companion Verification Ledger: https://github.com/WholeTroutMedia/open-source-bounties
 
 ## Purpose
-This repository contains self-contained, zero-dependency building blocks from our 12-Plugin Impossible Toolkit alongside the Creative Liberation Engine foundation. Read `registry/applications.json` and each module's `AGENT_BLUEPRINT.json` + `SKILL.md` for capability descriptors and synthesis recipes.
+This repository contains self-contained, zero-dependency Python stdlib building blocks alongside the Creative Liberation Engine foundation. Read `registry/applications.json` and each module's `AGENT_BLUEPRINT.json` + `SKILL.md` for capability descriptors and synthesis recipes.
 
 ## Available Modules
 - [000-cle-foundation-seed-os](./apps/000-cle-foundation-seed-os/AGENT_BLUEPRINT.json): Creative Liberation Engine · An open creative foundation shaped by the imagination of the person using it. Companion repo: https://github.com/WholeTroutMedia/creative-liberation-engine
