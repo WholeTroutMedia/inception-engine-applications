@@ -15,6 +15,6 @@ python3 apps/001-seal-pdf-media-notary/verify_app.py
 ```
 
 ## Files in This Module
-- [`engine.py`](./engine.py): Self-contained reference implementation (`SHA-256: f46b0bf4f8626235...`).
+- [`engine.py`](./engine.py): Self-contained reference implementation (`SHA-256: 2eeeecb92072bbeb...`).
 - [`verify_app.py`](./verify_app.py): Deterministic unit and invariant test harness.
 - [`AGENT_BLUEPRINT.json`](./AGENT_BLUEPRINT.json) & [`SKILL.md`](./SKILL.md): Structured capability descriptors and synthesis invariants for autonomous coding agents and MCP routers.
