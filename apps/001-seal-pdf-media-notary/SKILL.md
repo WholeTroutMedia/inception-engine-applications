@@ -7,7 +7,7 @@ description: >-
 # Agent Synthesis Skill: `001-seal-pdf-media-notary` (Cryptographic Media Notary & EXIF Orientation / Privacy Scrubber)
 
 - **Toolkit Slot**: `seal_pdf_notary + utility_exif_scrubber`
-- **Engine SHA-256**: `f46b0bf4f8626235d9f890a6f7241ba01a05284ee6fa444ddad12babfb4c616c`
+- **Engine SHA-256**: `2eeeecb92072bbebdc3eb77a394ab4e05518e8d078eb31ff49e2286081622f87`
 - **Factory Blockchain Contract**: `0xB40F51866F1efdBd24A1549827e0A4e55d3005DE` (`Keccak-256`: `0xe0bfa93409387bcc...`)
 - **Verification**: `[PASS] 001-seal-pdf-media-notary verified (RFC 6962 Merkle root + EXIF transpose + tamper rejection, exit code 0).`
 
